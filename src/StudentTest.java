@@ -10,6 +10,7 @@ public class StudentTest {
   List<Student> students = new ArrayList<>();
 
   @Test
+
   public void testGetAvgRating() {
 
     assertEquals(Student.getAvgRating(), 0.0d, "Average rating is wrong");
